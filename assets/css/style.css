@@ -68,6 +68,12 @@ h6 {
   /* width: 350px;   */
 
 }
+@media (min-width: 1024px) {
+  
+  .dolu::before {
+    background-attachment: fixed;
+  }
+}
 .pari{
   position: relative;
  /* left: 5%; */
