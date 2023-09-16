@@ -20,7 +20,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("/assets/img/klmn.png") no-repeat;
+  background: #040404 url("") no-repeat;
+  background-image: url(/assets/img/klmn.png);
   background-size: cover;
   left: 0;
   right: 0;
@@ -65,9 +66,10 @@ h6 {
 
 }
 @media (min-width: 1024px) {
-  
-  .dolu::before {
-    background-attachment: fixed;
+    .dolu{
+      position: relative;
+    }
+    
   }
 }
 .pari{
